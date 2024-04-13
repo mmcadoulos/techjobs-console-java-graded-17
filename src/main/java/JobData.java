@@ -48,8 +48,8 @@ public class JobData {
 
         // load data, if not already loaded
         loadData();
-
-        return allJobs;
+        // Oracle documentation was kinda confusing as to the syntax for bonus 2
+        return new ArrayList<>(allJobs);
     }
 
     /**
